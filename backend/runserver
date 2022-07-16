@@ -1,0 +1,2 @@
+docker-compose --profile release up -d
+docker exec -d -it cnu_web python manage.py migrate

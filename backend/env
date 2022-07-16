@@ -1,0 +1,18 @@
+# Django
+DJANGO_SECRET_KEY='sx03if3lxp5x&rz&xfqhi-z=bhhil)4^(3jf61w*nt3%@qz_07'
+DJANGO_DEBUG=True
+
+# Ports
+SERVER_HTTP_PORT=8080
+SERVER_HTTPS_PORT=8443
+PHPMYADMIN_PORT=8880
+
+# DB
+# release일 경우 host=db
+# dev일 경우 host=localhost
+MYSQL_HOST=db
+MYSQL_PORT=3306
+MYSQL_DATABASE=cnu
+MYSQL_USER=cnu
+MYSQL_PASSWORD=r912
+MYSQL_ROOT_PASSWORD=r912
