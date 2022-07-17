@@ -18,4 +18,4 @@ class Undergraduate(models.Model):
     # Methods
     def __str__(self):
         """String for representing the MyModelName object (in Admin site etc.)."""
-        return self.name
+        return f"{self.student_code}{self.name}"
